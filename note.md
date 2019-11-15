@@ -47,3 +47,4 @@ You have to log into the specific node to use the htop, to visualize the resourc
 ## | in the shell script, pipe sign!
 This sign generate data flow in shell scripts. 
 ## ! magic sign for shell script in Jupyter notebook.
+## To exit from emacs or xemacs press CTRL-X CTRL-C.
