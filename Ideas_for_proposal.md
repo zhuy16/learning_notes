@@ -10,12 +10,12 @@ Current function:
 
 # Major modules: 
 ## Biological question--stay focused on your question. 
-### Well-known advantages
+#### Well-known advantages
 >> -> Heterogeneity
 >> -> Transitions 
 >> -> Rare cell popolations
 >> -> High resolution
-### Be-aware of known challenges
+#### Be-aware of known challenges
 >> -> Transcriptional regulation
 >> -> High dropout rates
 >> -> Platform setup money/time consuming
@@ -37,8 +37,9 @@ Current function:
 >>> #### -> Automation: Snakemake
 >>> #### -> Reproduciability: Singularity/ Docker.
 > ### Approaches
->> ####Pipelines
--> Pipelines are available, you just need to figure out input/output
+>> #### Pipelines
+-> Pipelines are available, Seurat, you just need to figure out input/output
+-> Troubleshooting, you need to know R/Shell, R S4 class and methods.
 > ### Consisiderations 
 >>> #### Alignment
 >>> -> Cellranger
