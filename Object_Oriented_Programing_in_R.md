@@ -2,16 +2,16 @@
 > For data analysis in R, we routinely use functions to
 extract/subset/tranform/visulize our data in an interactive interface,
 or generate Rscript to reuse the code. This is powerful for big but
-simple datasets. 
+simple datasets. \ 
 > When it comes to a complexed object, such as multiple
 versions of functions/methods, and different aspects involved in each
 dataset, Object-Orientied Programming will has to be involve to enhance
 simplicity and increase the efficiency of work. These including almost
-all the popular tools in the Bioconductor packages for genomic data.
+all the popular tools in the Bioconductor packages for genomic data. \
 > Eventhough experts are saying these are more for programmers, as a
 genomic data scientist, I feel it becomes essential to know well the
 theory and structures behind the objects. There are relatively very few
-tutorials, here are some of the best videos I can find. 
+tutorials, here are some of the best videos I can find. \
 # Versions and systems
 1. S3, a old/classical version of OOP in R. Classes are generated to
 contain slots for different aspect of the data, each method has
