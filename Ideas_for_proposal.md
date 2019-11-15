@@ -3,10 +3,11 @@ Title proposal:
 # How to use single-cell RNA-seq to advance your study: workflow and considerations. 
 
 # Self-introduction
->Did projects on single cell RNAseq
+Did projects on single cell RNAseq
 >>Wetlab background in stem cell biology and neurodegeneration.
->Current function: --> Promote/support scRNA seq 
-		--> Service scope: Consultation/bioinformatic analysis
+Current function: 
+--> Promote/support scRNA seq 
+--> Service scope: Consultation/bioinformatic analysis
 
 # Major modules: 
 ### Biological question--stay focused on your question. 
