@@ -8,7 +8,7 @@ Title proposal:
 >Current function: --> Promote/support scRNA seq 
 		--> Service scope: Consultation/bioinformatic analysis
 
-# 3 big modules: 
+# Major modules: 
 ### Biological question--stay focused on your question. 
 > Well-known advantages
 >> -> Heterogeneity
@@ -39,7 +39,7 @@ Title proposal:
 > Approaches
 >> Pipelines
 -> Pipelines are available, you just need to figure out input/output
-Consisiderations 
+> Consisiderations 
 >>> Alignment
 >>> -> Cellranger
 >>> -> Cite-seq-count
@@ -51,7 +51,7 @@ Consisiderations
 >>> -> Regulatory analysis (iRegulon, Scenic, IPA) 
 >>> -> Overlap with existing data/cross validation with other conditions. (Geo datasets, SRA etc)
 >>> Literature search
-### downstream validations
+### Downstream validations
 > Expresssional : FISH/IHC
 >> -> FISH are timeconsuming 
 >>> -> IHC need good antibodies <--analysis need to know what kind of molecules to find for validation.
