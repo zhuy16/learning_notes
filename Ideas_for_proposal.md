@@ -3,10 +3,10 @@ Title proposal:
 # How to use single-cell RNA-seq to advance your study: workflow and considerations. 
 
 # Self-introduction: previous projects on single cell RNAseq
->>Wetlab background in stem cell biology and neurodegeneration.
+>> Wetlab background in stem cell biology and neurodegeneration.
 Current function: 
-### Promote/support scRNA seq 
-### Service scope: Consultation/bioinformatic analysis
+>> #### Promote/support scRNA seq 
+>> #### Service scope: Consultation/bioinformatic analysis
 
 # Major modules: 
 ## Biological question--stay focused on your question. 
@@ -15,7 +15,7 @@ Current function:
 >> -> Transitions 
 >> -> Rare cell popolations
 >> -> High resolution
-#### Be-aware of known challenges
+>> -> _Be-aware of known challenges_
 >> -> Transcriptional regulation
 >> -> High dropout rates
 >> -> Platform setup money/time consuming
@@ -38,8 +38,8 @@ Current function:
 >>> #### -> Reproduciability: Singularity/ Docker.
 > ### Approaches
 >> #### Pipelines
--> Pipelines are available, Seurat, you just need to figure out input/output
--> Troubleshooting, you need to know R/Shell, R S4 class and methods.
+>> -> Pipelines are available, Seurat, you just need to figure out input/output
+>> -> Troubleshooting, you need to know R/Shell, R S4 class and methods.
 > ### Consisiderations 
 >>> #### Alignment
 >>> -> Cellranger
@@ -55,7 +55,7 @@ Current function:
 ## Downstream validations
 > ### Expresssional : FISH/IHC
 >> -> FISH are timeconsuming 
->>> -> IHC need good antibodies <--analysis need to know what kind of molecules to find for validation.
+>>> -> IHC needs good antibodies <--analysis need to know what kind of molecules to find for validation.
 > ### Functional validation: Virus, Drugs
 >> -> Selection of candidates has to be informed by the domain knowledge and must involve intensive discussions. 
 
