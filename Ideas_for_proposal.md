@@ -22,10 +22,10 @@ Title proposal:
 >>> --> Accessible to professionals and instruments
 >> Computationally intensive
 ### Experimental setup, 
-> -> 10x Genomics / dropseq
-> -> SmartII pipeline
-> -> Nextseq 500/Novaseq /Hiseq
-> -> Other considerations —scATAC, scCite-seq.
+-> 10x Genomics / dropseq
+-> SmartII pipeline
+-> Nextseq 500/Novaseq /Hiseq
+-> Other considerations —scATAC, scCite-seq.
 ### Bioinformatic analysis, 
 > Languages : shell script/linux + HPC, R, Python
 >> Organization
