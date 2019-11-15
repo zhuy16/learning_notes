@@ -30,8 +30,8 @@ Current function:
 ### Bioinformatic analysis, 
 > Languages : shell script/linux + HPC, R, Python
 >> Organization
->>> -> Scripts: Version control git/github
->>> -> Folder organization: cookiecutter
+>>> ####  -> Scripts: Version control git/github
+>>> #### -> Folder organization: cookiecutter
 >>> -> Automation: Snakemake
 >>> -> Reproduciability: Singularity/ Docker.
 >> Shell script
