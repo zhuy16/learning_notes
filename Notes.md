@@ -29,7 +29,7 @@ Object-oriented programing are considered advanced R, and is commonly used in al
 Objects are defined with slots denoted by object@slot, each slot could have it's own slots or could be a generic class object.
 R is more function-oriented language, not a object-oriented programing language (OOP).
 
-#6. commonly used organizational tools for data scientists
+## 6. commonly used organizational tools for data scientists
 Note 6, 11-13-2019
 ## Jupyter lab
 ## Cookiecutter 
