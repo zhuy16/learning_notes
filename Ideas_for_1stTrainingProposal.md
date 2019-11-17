@@ -29,7 +29,7 @@ Title proposal:
 ## Bioinformatic analysis, 
 > ### Languages : shell script/linux + HPC, R, Python
 >> -> Shell script
->> -> R/Rstudio/Rmarkdown
+>> -> R/Rstudio/Rmarkdown (a useful tip, how to use knitr::spin to generate report, and use it to demonstrate passing parameters as a software)
 >> -> Python/Jupyter lab/ Notebook
 >> ### Organization
 >>> ####  -> Scripts: Version control git/github
@@ -38,18 +38,18 @@ Title proposal:
 >>> #### -> Reproduciability: Singularity/ Docker.
 > ### Approaches
 >> #### Pipelines
->> -> Pipelines are available, Seurat, you just need to figure out input/output
+>> -> Pipelines are available, Seurat, you just need to figure out input/output (how to use Seurat, a practical)
 >> -> Troubleshooting, you need to know R/Shell, R S4 class and methods.
 > ### Consisiderations 
 >>> #### Alignment
->>> -> Cellranger
+>>> -> Cellranger (a simple example here?)
 >>> -> Cite-seq-count
 >>> #### Routine analysis (Seurat)
 >>>> -> Clustering
 >>>> -> Temporal/spatial progression
 >>>> -> Differential expression —> pathway/GO analysis. (Deseq2, IPA, David, GSEA)
 >> #### Selecting candidate for validations
->>> -> Regulatory analysis (iRegulon, Scenic, IPA) 
+>>> -> Regulatory analysis (iRegulon, Scenic, IPA) (Could be a practice on how to export networks from IPA into Cytoscape?)
 >>> -> Overlap with existing data/cross validation with other conditions. (Geo datasets, SRA etc)
 >>> #### Literature search
 ## Downstream validations
