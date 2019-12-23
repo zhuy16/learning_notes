@@ -11,7 +11,7 @@ on local machine type:
 it will automatically login into biowulf, and then type 
 # tm
  it will load tmux, generate a new terminal and request a work node. and out put a tunnel. 
- copy and paste the tunnel onto a new local terminal to establish the tunnel. 
+ copy and paste the tunnel onto a new local terminal to establish the tunnel. \n
  then type on the interactive node: 
 # ju
 
