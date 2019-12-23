@@ -1,11 +1,11 @@
-SIMPLIFIED PROCEDURES TO START JUPYTERLAB ON BIOWULF 
-add this line to the local ~/.bashrc file:
-# alias wulf="sshpass -p ******** ssh -tX zhuy16@biowulf.nih.gov 'echo ----hello loged-in!;bash -l'"
+# SIMPLIFIED PROCEDURES TO START JUPYTERLAB ON BIOWULF 
+Add this line to the local ~/.bashrc file:
+#### alias wulf="sshpass -p ******** ssh -tX zhuy16@biowulf.nih.gov 'echo ----hello loged-in!;bash -l'"
 add these lines to the login ~/.bashrc file on biowulf
-# alias tm="module load tmux; tmux new -ct 'sinteractive --mem=50g --gres=lscratch:5 --tunnel'"
-# alias ju='conda activate jupyter && module load R/3.5 && jupyter lab --ip localhost --port $PORT1 --no-browser'
+#### alias tm="module load tmux; tmux new -ct 'sinteractive --mem=50g --gres=lscratch:5 --tunnel'"
+#### alias ju='conda activate jupyter && module load R/3.5 && jupyter lab --ip localhost --port $PORT1 --no-browser'
 
-procedures to startup the jupyter lab with R kernal
+## procedures to startup the jupyter lab with R kernal
 on local machine type:
 # wulf
 it will automatically login into biowulf, and then type 
