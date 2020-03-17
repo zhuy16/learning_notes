@@ -52,3 +52,4 @@ This sign generates data flow in shell scripts.
 ## 8. To exit from emacs or xemacs press CTRL-X CTRL-C.
 ## 9 rSync to synchronize folders
 rsync -av --delete --exclude 'data' -e ssh zhuy16@biowulf.nih.gov:~/data/F2019/scRNAseq_xie/syn ./
+git add -u . && git commit -m references && git push
