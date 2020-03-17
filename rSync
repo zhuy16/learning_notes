@@ -1,1 +1,0 @@
-rsync -av --delete --exclude 'data' -e ssh zhuy16@biowulf.nih.gov:~/data/F2019/scRNAseq_xie/syn ./
