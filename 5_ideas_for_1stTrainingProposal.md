@@ -1,6 +1,6 @@
 #Training#
 Title proposal: 
-# How to use single-cell RNA-seq to advance your study: workflow and considerations. 
+# Using single-cell RNA-seq to advance your study: workflow and considerations. 
 
 ### Self-introduction: previous projects on single cell RNAseq
 >> #### Wetlab background in stem cell biology and neurodegeneration.
