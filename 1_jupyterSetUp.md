@@ -1,4 +1,6 @@
-# SIMPLIFIED PROCEDURES TO START JUPYTERLAB ON BIOWULF 
+# We can use jupyter lab/notebook on both Locus and Biowulf. 
+
+# 1. SIMPLIFIED PROCEDURES TO START JUPYTERLAB ON BIOWULF 
 Add this line to the local ~/.bashrc file:
 #### alias wulf="sshpass -p ******** ssh -tX zhuy16@biowulf.nih.gov 'echo ----hello loged-in!;bash -l'"
 add these lines to the login ~/.bashrc file on biowulf
@@ -17,3 +19,22 @@ it will automatically login into biowulf, and then type
 
  this will automatically load R module, and startup jupyter lab. 
  paste the new link to a web browser, and start working!
+
+
+# 2. Using jupyter hub from Locus. 
+
+Just go to https://ai-submit2.niaid.nih.gov:10101/user/zhuy16/tree to start using the Jupyter hub like normal. 
+
+To install packages in the jupyter hub, just activate the jupyterenv and install packages in the --user option. This will make it available in the github. 
+Tip: don't forget to restart the kernel before using the newly installed packages.
+
+ 
+$ module load anaconda3/5.3.0
+$ source activate jupyterenv
+$ pip install --user mypackage
+
+For R packages:
+See https://www.osc.edu/resources/getting_started/howto/howto_install_local_r_packages for more information.
+ 
+If you’re given a choice of where to install the packages, make sure you use your home directory (or its shortcut, ‘~’).
+After doing that, the package(s) you’ve installed should be available to any JupyterHub Portal session you start.
