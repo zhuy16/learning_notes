@@ -41,7 +41,7 @@ For git push without using keys. First add key of the host computer to the githu
 for example, 
 
 Open .git/config and find the [remote "origin"] section. Make sure you're using the SSH one:
-
+## attention to the format:
 ssh://git@github.com/username/repo.git
 
 And NOT the https or git one:
