@@ -37,6 +37,18 @@ To clone the folder structure, to regularize folders, keep them organized.
 For reproducible programming, to control operating system, software and language installed. 
 ## git/GitHub
 For backup codes and version control.
+For git push without using keys. First add key of the host computer to the github account; second, have to make sure the .git/config has the setting of ssh address.
+for example, 
+
+Open .git/config and find the [remote "origin"] section. Make sure you're using the SSH one:
+
+ssh://git@github.com/username/repo.git
+
+And NOT the https or git one:
+
+https://github.com/username/repo.git or 
+git://github.com/username/repo.git 
+
 ## Snakemake
 To glue together pieces of codes and programs, to achieve pipeline automation
 ## All kinds of cheat_sheet
@@ -53,3 +65,7 @@ This sign generates data flow in shell scripts.
 ## 9 rSync to synchronize folders
 rsync -av --delete --exclude 'data' -e ssh zhuy16@biowulf.nih.gov:~/data/F2019/scRNAseq_xie/syn ./
 git add -u . && git commit -m references && git push
+
+jupyter notebook is not good for interactive work. To install packages, should be done through the terminal instead of inside the notebook.
+
+
