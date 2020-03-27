@@ -1,16 +1,21 @@
 Few things to note with my personal experience.
 
 # Categories of bioinformatic tools
+
 Generally, there are 4 main categories of bioinformatic tools. 
 
 **1) in R** 
+
 This could be the best to start with, as it handles visulization, and is simple and useful.
 
 **2) in shell script**, alternatively called bash script. 
+
 free codes/tools are mostly available in linux/unix systems. consider has such a system, be it either a mac computer, or a ubuntu OS installation, or simply register a AWS account in Amazon and start from a free EC2 instance.
+
 Most tools for sequence analysis are written to work in shell script. 
 
 **3) in python**
+
 Python is more for general purpose and recently adapted for data science. It is more for machine learning and deep learning. 
 
 **4) Graphical user interface(GUI) tools** (mostly not free)
@@ -97,6 +102,6 @@ for temporal inference --velocity
 
 --PIDC(information theory)
 
---snlearn (R package for Bayes Net)
+--bnlearn (R package for Bayes Net)
 
 **If you have doubt, please write to me at zzhonghua@gmail.com**
