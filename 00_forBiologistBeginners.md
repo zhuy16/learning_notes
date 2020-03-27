@@ -16,12 +16,31 @@ Python is more for general purpose and recently adapted for data science. It is 
 **4) Graphical user interface(GUI) tools** (mostly not free)
 
 # misconception
+
 1. Computational analysis is not easy, it takes a lot of time. 
+
 2. It works very different ways from biological research experiments. You may spend days to debug to find that an lack/extra blank space that caused your code not runing. This is not a waste of time. 
+
 3. You need a master certificate? No, just learn from your work on it. Most conversion happens this way. You need youtube and google, you need to find the right keyword to get your answer. 
+
 4. Organization is important. You will find yourself lost in massive file systems if you are not careful pay attention to those tools that help you to organize. 
 
-# common useful tools
+
+# **Common useful tools**
+
+## Organizationl
+
+Jupyter lab/notebook: help organizing your code in blocks, with results, and show on the url, very nice for reporting. For use of R, Python and Shell and other languages, the trend is here.
+
+Conda environments, for taking good control of the packages and versions of software you are using. 
+
+Snakemake, it is the way to make code run automatically, once build you don't need to keep watching and intervening. 
+
+Singularity, or Docker for general purpose, to built a more solid control not only on version of software, but also the version and flavor of linux OS. At the same time not that strict and big as a Virtual Machine. This is trendy. 
+
+git/github, push your code and result to the web, so people can share through url.
+
+# **for statistics, visualization, computation** 
 
 R, ggplot2 (drawing graphs), dplyr(to allow pipes), pheatmap etc 
 
