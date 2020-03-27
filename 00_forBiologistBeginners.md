@@ -28,21 +28,30 @@ R, ggplot2 (drawing graphs), dplyr(to allow pipes), pheatmap etc
 # **for bulk RNA-seq**
 
 Sequence analysis: Shell script and SED
+
 Trimmomatic, for filtering each sequence to cut out low quality bases at random position. 
+
 Fastqx for cutting manually defined begining and tail sequences with bad quality. 
+
 Bowtie2 to map to genome.
+
 RSEM for making the transcriptome.
+
 GTF file as reference for genome regions that are genes and transcripts.
+
 Packages in R, DE-Seq2, EdgeR and various other tools in bioconductor (all S3/S4 based Object-oriented programming tools. Sometime comfusing, more complicated than basic operation in R, which is procedure based programming) 
 
 
-# ** for single-cell RNA-seq**
+# **for single-cell RNA-seq**
 
 ## raw seqence count:
+
 CellRanger for 10x genomics. 
+
 CITE-seq count for CITseq and Hash-seq
 
 ## routine downstream analysis
+
 Seurat pipelines for various types of experiment in R
 
 --general pipeline
