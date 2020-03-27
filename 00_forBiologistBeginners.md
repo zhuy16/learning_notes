@@ -21,4 +21,54 @@ Python is more for general purpose and recently adapted for data science. It is 
 3. You need a master certificate? No, just learn from your work on it. Most conversion happens this way. You need youtube and google, you need to find the right keyword to get your answer. 
 4. Organization is important. You will find yourself lost in massive file systems if you are not careful pay attention to those tools that help you to organize. 
 
+# common useful tools
+
+R, ggplot2 (drawing graphs), dplyr(to allow pipes), pheatmap etc 
+
+# **for bulk RNA-seq**
+
+Sequence analysis: Shell script and SED
+Trimmomatic, for filtering each sequence to cut out low quality bases at random position. 
+Fastqx for cutting manually defined begining and tail sequences with bad quality. 
+Bowtie2 to map to genome.
+RSEM for making the transcriptome.
+GTF file as reference for genome regions that are genes and transcripts.
+Packages in R, DE-Seq2, EdgeR and various other tools in bioconductor (all S3/S4 based Object-oriented programming tools. Sometime comfusing, more complicated than basic operation in R, which is procedure based programming) 
+
+
+# ** for single-cell RNA-seq**
+
+## raw seqence count:
+CellRanger for 10x genomics. 
+CITE-seq count for CITseq and Hash-seq
+
+## routine downstream analysis
+Seurat pipelines for various types of experiment in R
+
+--general pipeline
+--compare different conditions
+--Multimodule (CITEseq, etc)
+--Batch effect correction.
+
+## dimension reduction
+--PCA
+--TSNE
+--UMAP
+--Autoencoder (Neural Network)
+
+## others
+for imputation --MAGIC --autoencoder
+for trajectory --monocle (R,python), Wishbone(python)
+for temporal inference --velocity
+
+## gene regulatory network analysis
+
+--SCENIC(based on iRegulon, and Genie3--regression tree and bootStraping)
+
+--ARACNE(based on information theory)
+
+--PIDC(information theory)
+
+--snlearn (R package for Bayes Net)
+
 **If you have doubt, please write to me at zzhonghua@gmail.com**
