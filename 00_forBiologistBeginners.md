@@ -108,4 +108,25 @@ for temporal inference --velocity
 
 --bnlearn (R package for Bayes Net)
 
+# It's never a waste of time to learn math and mathematics!
+
+There are few different aspects of math we need to learn to grow
+
+1. **linear algebra**. --you will understand how calculation works in the computer, and intuitive understanding or some of the most abstract notation representing how calculation are done in computer. refer to Youtube.
+
+2. **calculus**, a central concept of gradient decent, is based on calculus. many of the cost function and likelihood maximisation algorithms are based on calculus.
+
+3. **probability distributions and statistics** These are consideration and reasoning of different data type and statistical relationships. This is important for modling and inference. different distribution are assumptions of many algoriths, such as when doing differential expression, inputation, regulatory network analysis, etc.
+
+4. **information theory, entropy and mutual information** this is essentially still statistics, but specifically dealing with all kinds of distribution without assumption, whether it is linear or non-linear.
+ 
+5. **regression** for instance, linear regression, multiple regression, logistic regression, support vector machine, etc.
+
+6. **bootstrapping/random forest and boosting** see how a stupid but fast machine can help us to solve large problems efficiently
+
+7. **manifold, topology** this is usually considered for high dimensional data, in the problem of dimension reduction.
+
+8. **graph/network theory** this has a very simple basic but is very popular to study interelationships between molecules.
+ 
+
 **If you have doubt, please write to me at zzhonghua@gmail.com**
