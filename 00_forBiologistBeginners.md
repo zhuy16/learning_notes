@@ -28,12 +28,18 @@ Python is more for general purpose and recently adapted for data science. It is 
 
 3. Do you need a master certificate? No, just learn from your work on it. Most conversion happens this way. You need youtube and google, you need to find the right keyword to get your answer. 
 
-4. The organization is important. You will find yourself lost in massive file systems if you are not careful to pay attention to those tools that help you to organize. 
+4. The organization of workplace/development environment and file systems are important. You will find yourself lost in massive file systems if you are not careful to pay attention to those tools that help you to organize. 
 
 # **Love linux systems**
 
 
 **With regards to linux systems**
+
+Linux system is much more customizable, and efficient for command-line operations than Windows, Mac, Ubuntu, many HPC OS are just different versions of the Linux system. 
+
+Command lines are more efficient in handling large data systematically. 
+
+You don't need to have Linux for R and python, but better get familiar with it because it forms the base of the ecosystem. 
 
 > different types of user accounts exist, the root(administrator), a regular user and a guest.
 
