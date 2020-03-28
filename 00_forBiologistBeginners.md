@@ -51,6 +51,10 @@ You don't need to have Linux for R and python, but better get familiar with it b
 
 > don't use the root privilege unless necessary, otherwise, you may end up destroying your important file or the entire file system by accident.  
 
+> define alias (defined command line shortcuts used throught your machine) to avoid repeatitive typing in the ~/.bashrc file. 
+
+> customize your $PS1 environmental variable so you can always know the folder and path you are in, which account/privillege are you using, and on what host.  
+
 # **Common useful tools**
 
 ## Organization of workplace
