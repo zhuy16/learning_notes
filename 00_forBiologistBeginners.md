@@ -32,28 +32,22 @@ Python is more for general purpose and recently adapted for data science. It is 
 
 # **Love linux systems**
 
-Linux system are much more customizable, and efficient for command line operations than Windows, Mac, Ubuntu, many HPC OS are just different version of linux system. 
 
-Command lines are more efficient for handling large data systematically. 
-
-You don't need to have Linux for R and python, but better get familiar with it because it forms the base of the ecosystem. 
-
-**concepts in linux system**
+**With regards to linux systems**
 
 > different types of user accounts exist, the root(administrator), a regular user and a guest.
 
-> each file and folder is managed by the permission system, has a owner, who will set different permissions for the user, group member, and others to read, write and execute. 
+> each file and folder is managed by the permission system, has an owner, who will set different permissions for the user, group member, and others to read, write and execute. 
 
-> for a script( a pieces of code that can do an operation) to work. you have to, first to make sure the code has no problem; second define the shell in the header so the machine knows what to use to execute the script; third make the file executable my chmod function; forth, you have to put the file in a directory in to $PATH, and source it, so the OS knows where to find it. 
+> for a script (a piece of code that can do an operation) to work. you have to, first to make sure the code has no problem; second, define the shell in the header so the machine knows what to use to execute the script; third, make the file executable my 'chmod' function; forth, you have to put the file in a directory into $PATH, and source it, so the OS knows where to find it. 
 
 > symbolic links are very useful, so you can skip typing many "cd"s. 
 
-> don't use the root previlliage unless necessary, otherwise you may end up distroying your important file or the entire file system by accident.  
-
+> don't use the root privilege unless necessary, otherwise, you may end up destroying your important file or the entire file system by accident.  
 
 # **Common useful tools**
 
-## Organizational
+## Organization of workplace
 
 Jupyter lab/notebook: help to organize your code in blocks, with results, and show on the URL, very nice for reporting. For the use of R, Python and Shell, and other languages, the trend is here.
 
