@@ -2,7 +2,7 @@
 
 # 1. SIMPLIFIED PROCEDURES TO START JUPYTERLAB ON BIOWULF 
 Add this line to the local ~/.bashrc file:
-#### alias wulf="sshpass -p ******** ssh -tX zhuy16@biowulf.nih.gov 'echo ----hello loged-in!;bash -l'"
+#### alias wulf="sshpass -p p*w*d ssh -tX usr.name@biowulf.nih.gov 'echo ----hello loged-in!;bash -l'"
 add these lines to the login ~/.bashrc file on biowulf
 #### alias tm="module load tmux; tmux new -ct 'sinteractive --mem=50g --gres=lscratch:5 --tunnel'"
 #### alias ju='conda activate jupyter && module load R/3.5 && jupyter lab --ip localhost --port $PORT1 --no-browser'
@@ -23,7 +23,7 @@ it will automatically login into biowulf, and then type
 
 # 2. Using jupyter hub from Locus. 
 
-Just go to https://ai-submit2.niaid.nih.gov:10101/user/zhuy16/tree to start using the Jupyter hub like normal. 
+Just go to https://ai-submit2.niaid.nih.gov:10101/user/usr.name/tree to start using the Jupyter hub like normal. 
 
 To install packages in the jupyter hub, just activate the jupyterenv and install packages in the --user option. This will make it available in the github. 
 Tip: don't forget to restart the kernel before using the newly installed packages.

@@ -63,7 +63,7 @@ This sign generates data flow in shell scripts.
 ## 7. "!" magic sign for shell script in Jupyter notebook.
 ## 8. To exit from emacs or xemacs press CTRL-X CTRL-C.
 ## 9 rSync to synchronize folders
-rsync -av --delete --exclude 'data' -e ssh zhuy16@biowulf.nih.gov:~/data/F2019/scRNAseq_xie/syn ./
+rsync -av --delete --exclude 'data' -e ssh usr.name@biowulf.nih.gov:/path/to/the/folder ./
 git add -u . && git commit -m references && git push
 
 jupyter notebook is not good for interactive work. To install packages, should be done through the terminal instead of inside the notebook.
