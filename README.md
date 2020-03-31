@@ -2,10 +2,16 @@ This is a page devoted to record the daily learning logs on bioinformatic tools,
 
 # Useful Links
 
-1. classical lessions about machine learning:
+1. My class on NIAID on Gene Regulatory Networks.
 
-[Andrew Ng's CS229@Stanford](https://www.youtube.com/watch?v=UzxYlbK2c7E&list=RDCMUC-EnprmCZ3OXyAoG7vjVNCA&start_radio=1&t=7)
+> [Finding Master genes through regulatory network analysis](https://github.com/niaid/Gene_Regulatory_Networks)
 
-2. collection of published tools for single-cell RNA-seq analysis.
+2. classical lessions about machine learning.
 
-[awsome-single-cells](https://github.com/seandavi/awesome-single-cell)
+> [Andrew Ng's CS229@Stanford](https://www.youtube.com/watch?v=UzxYlbK2c7E&list=RDCMUC-EnprmCZ3OXyAoG7vjVNCA&start_radio=1&t=7)
+
+3. collection of published tools for single-cell RNA-seq analysis.
+
+> [awsome-single-cells](https://github.com/seandavi/awesome-single-cell)
+
+
