@@ -4,7 +4,7 @@ This is a page devoted to record the daily learning logs on bioinformatic tools,
 
 1. My class on NIAID on Gene Regulatory Networks.
 
-> [Finding Master genes through regulatory network analysis](https://github.com/niaid/Gene_Regulatory_Networks)
+> [Finding Master genes](https://github.com/niaid/Gene_Regulatory_Networks) and the [video](https://www.youtube.com/watch?v=eMvUteU3WWk&feature=youtu.be)
 
 2. classical lessions about machine learning.
 
