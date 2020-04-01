@@ -16,21 +16,23 @@ Title proposal:
 >> -> Rare cell popolations
 >> -> High resolution
 >> -> _Be-aware of known challenges_
->> -> Transcriptional regulation
+>> -> It's only about transcriptional regulation
 >> -> High dropout rates
 >> -> Platform setup money/time consuming
 >> -> Accessible to professionals and instruments
+>> -> Analysis is a huge part
+>> -> Validate is critical
 >> #### Computationally intensive
 ## Experimental setup, 
 -> 10x Genomics / dropseq
--> SmartII pipeline
+-> Smart II pipeline
 -> Nextseq 500/Novaseq /Hiseq
 -> Other considerations —scATAC, scCite-seq.
 ## Bioinformatic analysis, 
 > ### Languages : shell script/linux + HPC, R, Python
->> -> Shell script
+>> -> Shell script -- for handling raw sequences and aligning/counting reads
 >> -> R/Rstudio/Rmarkdown (a useful tip, how to use knitr::spin to generate report, and use it to demonstrate passing parameters as a software)
->> -> Python/Jupyter lab/ Notebook
+>> -> Python/Jupyter lab/ Notebook -- for reporting analysis
 >> ### Organization
 >>> ####  -> Scripts: Version control git/github
 >>> #### -> Folder organization: cookiecutter
@@ -38,15 +40,17 @@ Title proposal:
 >>> #### -> Reproduciability: Singularity/ Docker.
 > ### Approaches
 >> #### Pipelines
->> -> Pipelines are available, Seurat, you just need to figure out input/output (how to use Seurat, a practical)
+>> -> Pipelines are available, Seurat, you just need to figure out input/output (different workflow in Seurat)
 >> -> Troubleshooting, you need to know R/Shell, R S4 class and methods.
 > ### Consisiderations 
 >>> #### Alignment
+>>> -> FastQC
+>>> -> Trimmomatic and fastx_trimmer, RSEM
 >>> -> Cellranger (a simple example here?)
 >>> -> Cite-seq-count
 >>> #### Routine analysis (Seurat)
->>>> -> Clustering
->>>> -> Temporal/spatial progression
+>>>> -> Clustering (unsupervised clustering, dynamic tree cutting with WGCNA, tSNE/UMAP/auto-encoder)
+>>>> -> Temporal/spatial progression (Monocle3, Wishbone, Waterfall, and spatial analysis)
 >>>> -> Differential expression —> pathway/GO analysis. (Deseq2, IPA, David, GSEA)
 >> #### Selecting candidate for validations
 >>> -> Regulatory analysis (iRegulon, Scenic, IPA) (Could be a practice on how to export networks from IPA into Cytoscape?)

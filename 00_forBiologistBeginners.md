@@ -2,7 +2,7 @@ Few things to note with my personal experience.
 
 # Categories of bioinformatic tools
 
-Generally, there are 4 main categories of bioinformatic tools. 
+Generally, there are 5 main categories of bioinformatic tools. 
 
 **1) in R** 
 
@@ -19,6 +19,10 @@ Most tools for sequence analysis are written to work in a shell script.
 Python is more for general purpose and recently adapted for data science. It is more for machine learning and deep learning. 
 
 **4) Graphical user interface(GUI) tools** (mostly not free)
+
+**5) Web-based tools and databases.
+
+For example, there are David, Toppgene and Webgestalt and ReviGO for gene ontology analysis, Galaxy for RNA-seq anlysis, String for protein-protein interaction, etc.
 
 # misconception
 
