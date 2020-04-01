@@ -6,6 +6,8 @@
 
 > [Finding master genes](https://github.com/niaid/Gene_Regulatory_Networks) and the [video](https://www.youtube.com/watch?v=eMvUteU3WWk&feature=youtu.be)
 
+[![**youtube video record**](https://img.youtube.com/vi/eMvUteU3WWk/0.jpg)](https://www.youtube.com/watch?v=eMvUteU3WWk&feature=youtu.be)
+
 2. Organizing data science projects. 
 
 > [Justin Fear's handy tips](https://github.com/jfear/datascience_presentations) are especially inspiring to me.
