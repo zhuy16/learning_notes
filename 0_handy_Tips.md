@@ -31,6 +31,8 @@ R is more function-oriented language, not an object-oriented programing language
 ## 6. commonly used organizational tools for data scientists
 Note 6, 11-13-2019
 ## Jupyter lab
+jupyter notebook is not good for interactive work. To install packages, should be done through the terminal instead of inside the notebook.
+
 ## Cookiecutter 
 To clone the folder structure, to regularize folders, keep them organized. 
 ## Singularity/Docker 
@@ -49,6 +51,15 @@ And NOT the https or git one:
 https://github.com/username/repo.git or 
 git://github.com/username/repo.git 
 
+## it may be troublesome to type this string all the time. 
+you could put it as a bash executable file, into a folder in your PATH. so you could call the program to change the page.
+gitCode
+'
+#! /usr/bin/sh
+git add -u . && git commit -m $1 && git push
+'
+You could pass the comment as the $1 argument in your shell.
+
 ## Snakemake
 To glue together pieces of codes and programs, to achieve pipeline automation
 ## All kinds of cheat_sheet
@@ -63,9 +74,7 @@ This sign generates data flow in shell scripts.
 ## 7. "!" magic sign for shell script in Jupyter notebook.
 ## 8. To exit from emacs or xemacs press CTRL-X CTRL-C.
 ## 9 rSync to synchronize folders
-rsync -av --delete --exclude 'data' -e ssh usr.name@biowulf.nih.gov:/path/to/the/folder ./
-git add -u . && git commit -m references && git push
-
-jupyter notebook is not good for interactive work. To install packages, should be done through the terminal instead of inside the notebook.
+rSync -av --delete --exclude 'data' -e ssh usr.name@biowulf.nih.gov:/path/to/the/folder ./
+rSync can be dangerous as well. For the destination, it is always good have a designated folder. otherwise you may accidentaly erase all the files in you distination!!!
 
 
