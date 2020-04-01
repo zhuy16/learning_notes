@@ -4,7 +4,7 @@
 
 1. My class on NIAID on Gene Regulatory Networks.
 
-> [Finding master genes](https://github.com/niaid/Gene_Regulatory_Networks) and the [video](https://www.youtube.com/watch?v=eMvUteU3WWk&feature=youtu.be)
+> [NIAID github: Finding master genes](https://github.com/niaid/Gene_Regulatory_Networks) and the [video](https://www.youtube.com/watch?v=eMvUteU3WWk&feature=youtu.be)
 
 [![**youtube video record**](https://img.youtube.com/vi/eMvUteU3WWk/0.jpg)](https://www.youtube.com/watch?v=eMvUteU3WWk&feature=youtu.be)
 
