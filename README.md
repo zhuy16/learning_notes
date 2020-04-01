@@ -1,4 +1,4 @@
-This is a page devoted to record the daily learning logs on bioinformatic tools, tips and tricks.
+**This is a page devoted to record the daily updated learning notes on useful learning strategy, tricks and tips of using bioinformatic tools.**
 
 # Useful Links
 
