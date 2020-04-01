@@ -81,7 +81,7 @@ R, ggplot2 (drawing graphs), dplyr(to allow pipes), pheatmap, etc
 
 # **for bulk RNA-seq**
 
-Sequence analysis: Shell script and SED
+Sequence analysis: Shell script and 'sed' and 'awk'.
 
 Trimmomatic, for filtering each sequence to cut out low-quality bases at a random position. 
 
