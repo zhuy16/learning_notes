@@ -20,6 +20,8 @@ Python is more for general purpose and recently adapted for data science. It is 
 
 **4) Graphical user interface(GUI) tools** (mostly not free)
 
+Cytoscape (free) for network analysis and visualization, IPA (expensive) for GO analysis and others, IDEs such as Rstudio for R, Jupyter labs for Python, R and Julia.
+
 **5) Web-based tools and databases**
 
 For example, there are David, Toppgene and Webgestalt and ReviGO for gene ontology analysis, Galaxy for RNA-seq anlysis, String for protein-protein interaction, etc.
