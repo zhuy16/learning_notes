@@ -43,7 +43,7 @@ For example, there are David, Toppgene and Webgestalt and ReviGO for gene ontolo
 
 Linux system is much more customizable, and efficient for command-line operations than Windows, Mac, Ubuntu, many HPC OS are just different versions of the Linux system. 
 
-Command lines are more efficient in handling large data systematically. 
+Command lines are more efficient in handling large data systematically. if you don't have a Mac or Ubuntu systems. Go to Amazon to start a free EC2 instance will do. https://aws.amazon.com/ec2/getting-started/ 
 
 You don't need to have Linux for R and python, but better get familiar with it because it forms the base of the ecosystem. 
 
