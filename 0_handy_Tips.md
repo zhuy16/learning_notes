@@ -31,7 +31,8 @@ R is more function-oriented language, not an object-oriented programing language
 ## 6. commonly used organizational tools for data scientists
 Note 6, 11-13-2019
 ## Jupyter lab
-jupyter notebook is not good for interactive work. To install packages, should be done through the terminal instead of inside the notebook.
+jupyter notebook is not good for interactive work, as when the machine want you "yes" or "no" response, notebook will not let you.
+To install packages, should be done through the terminal instead of inside the notebook. Jupyter lab offer that flexibility, and various other functionalities, such as file navigator in the same window. Jupyter lab extensions will allow you to enhance further the convinience of Jupyter lab.
 
 ## Cookiecutter 
 To clone the folder structure, to regularize folders, keep them organized. 
