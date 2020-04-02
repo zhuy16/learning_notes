@@ -65,6 +65,8 @@ You don't need to have Linux for R and python, but better get familiar with it b
 
 ## Organization of workplace
 
+Without this, it's easy to get lost in file systems and you may find most of the time you spend are on struggling to understand what you have done few weeks ago. 
+
 Jupyter lab/notebook: help to organize your code in blocks, with results, and show on the URL, very nice for reporting. For the use of R, Python and Shell, and other languages, the trend is here.
 
 Conda environments, for taking good control of the packages and versions of software you are using. 
@@ -74,6 +76,8 @@ Snakemake, it is the way to make code run automatically, once build you don't ne
 Singularity, or Docker for general purpose, to build a more solid control not only on the version of software but also the version and flavor of Linux OS. At the same time not that strict and big as a Virtual Machine. This is trendy. 
 
 git/GitHub, push your code and result to the web, so people can share through URL.
+
+I would say [Justin Fear's handy tips](https://github.com/jfear/datascience_presentations) are especially inspiring to me.
 
 # **for statistics, visualization, computation** 
 
