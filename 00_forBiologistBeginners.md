@@ -6,35 +6,35 @@ Generally, there are 5 main categories of bioinformatic tools.
 
 **1) in R** 
 
-This could be the best to start with, as it handles visualization, and is simple and useful.
+This could be the best one to start with, as R specializes in making good visualization and is straightforward and useful for research work.
 
-**2) in shell script**, alternatively called bash script. 
+**2) in shell script**, alternatively it is called bash script. 
 
-free codes/tools are mostly available in linux/unix systems. consider has such a system, be it either a mac computer, or a ubuntu OS installation, or simply register an AWS account in Amazon and start from a free EC2 instance.
+Free codes/tools are mostly available in linux/unix systems. consider to have such an OS system, be it either a mac computer, or a ubuntu OS installation, or simply an AWS account on Amazon EC2 instance.
 
-Most tools for sequence analysis are written to work in a shell script. 
+Most tools for sequence analysis are written to work in shell script. 
 
 **3) in python**
 
-Python is more for general purpose and recently adapted for data science. It is more for machine learning and deep learning. 
+Python is more for general purposes and recently adapted for data science. It is more popular for machine learning and deep learning applications. 
 
 **4) Graphical user interface(GUI) tools** (mostly not free)
 
-Cytoscape (free) for network analysis and visualization, IPA (expensive) for GO analysis and others, IDEs such as Rstudio for R, Jupyter labs for Python, R and Julia.
+Cytoscape (free) is for network analysis and visualization, IPA (expensive) is for GO analysis, regulatory analysis and others. IDE examples include Rstudio for R, Jupyter lab for Python, R and Julia.
 
 **5) Web-based tools and databases**
 
-For example, there are David, Toppgene and Webgestalt and ReviGO for gene ontology analysis, Galaxy for RNA-seq anlysis, String for protein-protein interaction, etc.
+For example, there are David, Toppgene, Webgestalt for gene ontology analysis, ReviGO could help to remove redundancy of your GO terms. Galaxy is for RNA-seq anlysis, String is for protein-protein interaction, etc.
 
 # misconception
 
 1. Computational analysis is not easy, it takes a lot of time. 
 
-2. It works very different ways from biological research experiments. You may spend days to debug to find that a lack/extra blank space that caused your code not running. This is not a waste of time. 
+2. Computational work progress very differently from biological research experiments. You may spend days to debug your code, just to find that a lack/extra blank space caused your broken code. This is not a waste of time. 
 
-3. Do you need a master certificate? No, just learn from your work on it. Most conversion happens this way. You need youtube and google, you need to find the right keyword to get your answer. 
+3. Do you need a master certificate? No, just learn bioinformatics from your work. Most career switchs I know happen this way. What you need is only youtube and google, but you need to find the right keyword to get your answer. 
 
-4. The organization of workplace/development environment and file systems are important. You will find yourself lost in massive file systems if you are not careful to pay attention to those tools that help you to organize. 
+4. The organization of your workplace and file system are important. You will find yourself lost in a massive file system if you are not careful. Pay attention to those tools that help you to organize. 
 
 # **Love linux systems**
 
