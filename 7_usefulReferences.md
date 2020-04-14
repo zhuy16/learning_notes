@@ -10,7 +10,3 @@ https://satijalab.org/seurat/install.html
 
 ## Hopkins Bowtie2 references
 http://bowtie-bio.sourceforge.net/bowtie2/index.shtml  
-
-## Customize dotfiles and snippets
-
-https://github.com/CoreyMSchafer 
