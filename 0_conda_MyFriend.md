@@ -35,9 +35,26 @@ Now I can do
 
 so numpy can be recognized in this python installation. 
 
+you could also install now with jupyter lab. 
+
+> conda install -c conda-forge jupyterlab
+
+### to make a specific R installation available to the conda 
+you need to install the package "IRkernel" in R and configure it to notebook. 
+
+>install.packages('IRkernel')
+
+and make jupyter see your R kernal
+
+IRkernel::installspec()
+
+ref: https://irkernel.github.io/installation/
+
 # sublime text is a free, small and convenient program 
 
 It is crucial to have this for learning python because many of the tutorials are using a similar environment. 
+
+For the initial stage, it provide me some critical conviniences. I don't need to count how many white spaces are in each indentation, and I can have multiple cursors in different location of one documents to type in an identical piece of text. etc
 
 For configuration, please follow this video:
 
@@ -45,7 +62,7 @@ https://www.youtube.com/watch?v=xFciV6Ew5r4
 
 In the command line, we enter and get evaluation printed. but in sublime text, you have to use print() function to get out the value!
 
-# jupyterhub setup on Locus (NIAID HPC system)
+# jupyterhub setup on Locus (this is specific to the NIAID HPC system)
 
 ** don't confuse myself with a different environment with the same name** 
 This one is the system jupyterenv environment that needs to be modified. 
