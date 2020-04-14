@@ -57,9 +57,19 @@ You don't need to have Linux for R and python, but better get familiar with it b
 
 > don't use the root privilege unless necessary, otherwise, you may end up destroying your important file or the entire file system by accident.  
 
-> define alias (defined command line shortcuts used throught your machine) to avoid repeatitive typing in the ~/.bashrc file. 
+> Customize dotfiles and snippets. 
 
-> customize your $PS1 environmental variable so you can always know the folder and path you are in, which account/privillege are you using, and on what host.  
+in linux, a file, with a .name indicate a hidden file. you will need to use 
+
+> ls -lah 
+
+to see this type of files. This type of files can be very useful for configuring your system. Important ones are .bashrc, .ssh, .git etc. You could watch the following video to see details.
+
+https://github.com/CoreyMSchafer 
+
+1. define alias (defined command line shortcuts used throught your machine) to avoid repeatitive typing in the ~/.bashrc file. 
+
+2. customize your $PS1 environmental variable so you can always know the folder and path you are in, which account/privillege are you using, and on what host.  
 
 # **Common useful tools**
 
