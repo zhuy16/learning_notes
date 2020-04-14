@@ -1,18 +1,18 @@
 # conda installation and environment setup on a local computer
 
-Depending how did you installed your Python (and R) in different occations, you could end up having multiple installations of them in your computer. More problematicly, you could have installed different set of packages to different installation of Python and R, and forgot about which is which. This can make things very complicated and it could really mass up your memory and analysis. 
+Depending on how did you install your Python (and R) on different occasions, you could end up having multiple installations of them in your computer. More problematically, you could have installed a different set of packages onto the different installation of Python and R, and forgot about which is which. This can make things very complicated and it could mass up your memory and analysis. 
 
-Conda can deal with this with this called environment control. you could set up a environment and make only one (or specific) installation/s of R and Python available to your specific environment. This way you just need to remember your environment (most often specific to one of your project).
+Conda can deal with this using so-called environment control. you could set up an environment and make only one (or specific) installation/s of R and Python available to your specific environment. This way you just need to remember your environment (most often specific to one of your projects).
 
-Further more, you could store your version of R, Python and each packages in your YAML file, so you could replicate your envrionment for reproducing your analysis. 
+Furthermore, you could store your version of R, Python and each package in your YAML file, so you could replicate your environment for reproducing your analysis. 
 
 # choice of different version of conda
 
-Conda is initially developed for Python installation, so installing an anaconda3 or miniconda3 will install a python3 into your computer, and that will be your default python in Conda managed environments. don't install anaconda2 or miniconda2 because that is for python2, which has been deprivated.
+Conda is initially developed for Python installation, so installing an anaconda3 or miniconda3 will install a python3 into your computer, and that will be your default python in Conda managed environments. don't install anaconda2 or miniconda2 because that is for python2, which has been deprived.
 
-Anaconda3 come with an anaconda navigator and provide a good GUI and a ecosystem of useful softwares, such as jupyter lab, jupyter notebook, vscode, pycharm etc. However, anaconda3 binary installation is big and doesn't provide an easy command line access for me. I personally like to use a miniconda3 installation. 
+Anaconda3 comes with an anaconda navigator and provides a good GUI and an ecosystem of useful software, such as jupyter lab, jupyter notebook, vscode, pycharm etc. However, anaconda3 binary installation is big and doesn't provide an easy command-line access for me. I like to use a miniconda3 installation. 
 
-To install that, I just download and unziped the miniconda3 at home directory and export the bin to PATH. 
+To install that, I just download and unzip the miniconda3 at home directory and export the bin to PATH. 
 
 Now I can create environments like this:
 
@@ -27,7 +27,7 @@ Because I only have one python3, now I can find my python location only in one p
 > /Users/zhuy16/miniconda3/envs/mypython3/bin/python
 
 I will install all packages in this build.
-(accordingly, an build was created as myPython3 in the sublime text, it is a good editor with many convinient features)
+(accordingly, an build was created as myPython3 in the sublime text, it is a good editor with many convenient features)
 
 Now I can do 
 
@@ -35,9 +35,9 @@ Now I can do
 
 so numpy can be recognized in this python installation. 
 
-# sublime text is a free, small and convinient program 
+# sublime text is a free, small and convenient program 
 
-It is crucial to have this for learning python, because many of the tutorials are using similar environment. 
+It is crucial to have this for learning python because many of the tutorials are using a similar environment. 
 
 For configuration, please follow this video:
 
@@ -47,8 +47,8 @@ In the command line, we enter and get evaluation printed. but in sublime text, y
 
 # jupyterhub setup on Locus (NIAID HPC system)
 
-** don't confuse myself with different environment with the same name** 
-This one is the system jupyterenv environment that need to be modified. 
+** don't confuse myself with a different environment with the same name** 
+This one is the system jupyterenv environment that needs to be modified. 
 
 >source activate /sysapps/cluster/software/Anaconda3/5.3.0/envs/jupyterenv
 
@@ -56,13 +56,13 @@ This one is the system jupyterenv environment that need to be modified.
 
 >pip install --user holoviews
 
-# Now I can go to the jupyter hub web server to work within jupyter notebooks with Locus as my server. 
+# Now I can go to the jupyter hub webserver to work within jupyter notebooks with Locus as my server. 
 
  https://ai-submit2.niaid.nih.gov:10101/user/"yourID"/tree
  
 # load dataframe in .txt or .csv format to python. 
 
-dataframe is very common format for gene expression matrix. It is a entry point from where I got familar with python.
+data frame is a very common format for gene expression matrix. It is an entry point from where I got familiar with python.
 
 ### importing pandas module
 >>> import pandas as pd
@@ -122,4 +122,4 @@ https://docs.scipy.org/doc/numpy/reference/generated/numpy.save.html
 
 ### python3 vs python2
 
-Even though python 2 has deprivated on Jan of 2020, there are many python codes online that doesn't have specification somewhere, wheter it is version 2 or version 3, Professionals can tell it straight away because of some signature syntex. But it is difficult for the begainers as we often get confused. 
+Even though python 2 has deprived on Jan of 2020, there are many python codes online that don't have specification somewhere, whether it is version 2 or version 3, Professionals can tell it straight away because of some signature syntex. But it is difficult for the beginners as we often get confused. 
