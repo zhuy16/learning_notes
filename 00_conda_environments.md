@@ -1,5 +1,3 @@
-Even though python 2 has deprivated, there are many python codes online that doesn't have specification somewhere, wheter it is version 2 or version 3. Professionals may know because of some signature syntex. it is difficult for the begainers as we often get confused. 
-
 # conda installation and environment setup on a local computer
 
 Depending how do you installed your Python (and R), you could have multiple installations of them. After that, you could have installed different set of packages to different installation of Python and R. This make things very complicated and it could really mass up your memory and analysis. 
@@ -118,3 +116,7 @@ https://docs.scipy.org/doc/numpy/reference/generated/numpy.save.html
 > disctionary
 >Dictionary.get('key')
 >Dictionary.Items()
+
+### python3 vs python2
+
+Even though python 2 has deprivated on Jan of 2020, there are many python codes online that doesn't have specification somewhere, wheter it is version 2 or version 3, Professionals can tell it straight away because of some signature syntex. But it is difficult for the begainers as we often get confused. 
