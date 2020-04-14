@@ -162,4 +162,4 @@ There are a few different aspects of math we need to learn to grow. Not in a hur
 8. **graph/network theory** this has a very simple basic but is very popular to study interrelationships between molecules.
  
 
-**If you have doubt, please write to me at zzhonghua@gmail.com**
+**If you have doubts, please write to me at zzhonghua@gmail.com**
