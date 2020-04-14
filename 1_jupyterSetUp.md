@@ -2,9 +2,12 @@
 
 # 1. SIMPLIFIED PROCEDURES TO START JUPYTERLAB ON BIOWULF 
 Add this line to the local ~/.bashrc file:
+
 #### alias wulf="ssh -tX usr.name@biowulf.nih.gov 'echo ----hello loged-in!;bash -l'"
 add these lines to the login ~/.bashrc file on biowulf
+
 #### alias tm="module load tmux; tmux new -ct 'sinteractive --mem=50g --gres=lscratch:5 --tunnel'"
+
 #### alias ju='conda activate jupyter && module load R/3.5 && jupyter lab --ip localhost --port $PORT1 --no-browser'
 
 ## procedures to startup the jupyter lab with R kernal
@@ -26,14 +29,20 @@ it will automatically login into biowulf, and then type
 Just go to https://ai-submit2.niaid.nih.gov:10101/user/usr.name/tree to start using the Jupyter hub like normal. 
 
 To install packages in the jupyter hub, just activate the jupyterenv and install packages in the --user option. This will make it available in the github. 
+
 Tip: don't forget to restart the kernel before using the newly installed packages.
 
  
 $ module load anaconda3/5.3.0
-$ source activate jupyterenv
+
+$ source activate /sysapps/cluster/software/Anaconda3/5.3.0/envs/jupyterenv
+
 $ pip install --user mypackage
 
-For R packages:
+For R packages, just evoke R in the jupyterenv, and 
+
+> install.packages("yourPackage")
+
 See https://www.osc.edu/resources/getting_started/howto/howto_install_local_r_packages for more information.
  
 If you’re given a choice of where to install the packages, make sure you use your home directory (or its shortcut, ‘~’).
