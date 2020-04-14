@@ -1,13 +1,16 @@
 # conda installation and environment setup on a local computer
 
-Depending how do you installed your Python (and R), you could have multiple installations of them. After that, you could have installed different set of packages to different installation of Python and R. This make things very complicated and it could really mass up your memory and analysis. 
+Depending how did you installed your Python (and R) in different occations, you could end up having multiple installations of them in your computer. More problematicly, you could have installed different set of packages to different installation of Python and R, and forgot about which is which. This can make things very complicated and it could really mass up your memory and analysis. 
 
-Conda can deal with this with this called environment control. you could set up a environment and make only one installation of R and Python available to your specific environment. This way you just need to remember your environment (most often specific to one of your project).
+Conda can deal with this with this called environment control. you could set up a environment and make only one (or specific) installation/s of R and Python available to your specific environment. This way you just need to remember your environment (most often specific to one of your project).
 
 Further more, you could store your version of R, Python and each packages in your YAML file, so you could replicate your envrionment for reproducing your analysis. 
 
 # choice of different version of conda
-Anaconda3 navigator provide a good navigator and a ecosystem of useful softwares, such as jupyter lab, jupyter notebook, vscode, pycharm etc. However, anaconda3 binary installation is big and doesn't provide an easy command line access. I personally like to use a miniconda3 installation. 
+
+Conda is initially developed for Python installation, so installing an anaconda3 or miniconda3 will install a python3 into your computer, and that will be your default python in Conda managed environments. don't install anaconda2 or miniconda2 because that is for python2, which has been deprivated.
+
+Anaconda3 come with an anaconda navigator and provide a good GUI and a ecosystem of useful softwares, such as jupyter lab, jupyter notebook, vscode, pycharm etc. However, anaconda3 binary installation is big and doesn't provide an easy command line access for me. I personally like to use a miniconda3 installation. 
 
 To install that, I just download and unziped the miniconda3 at home directory and export the bin to PATH. 
 
@@ -40,7 +43,7 @@ For configuration, please follow this video:
 
 https://www.youtube.com/watch?v=xFciV6Ew5r4
 
-**in the command line, we enter and get evaluation printed. but in sublime text, you have to use print() function to get out the value!**
+In the command line, we enter and get evaluation printed. but in sublime text, you have to use print() function to get out the value!
 
 # jupyterhub setup on Locus (NIAID HPC system)
 
