@@ -1,4 +1,4 @@
-I found **conda environment management + 
+I found **conda environment management +**
 
 **Jupyter lab (file browser, kernal manager) +**
 **Jupyter Notebook (coding and reporting in a URL interface) +** 
