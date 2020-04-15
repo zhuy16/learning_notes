@@ -20,6 +20,12 @@ To install that, I just download and unzip the miniconda3 at home directory and 
 bioconda is just a place/source/project there conda go to find packages. 
 There are 3 most commonly used sources are default, conda-forge, and bioconda. These are equivalent to bioconductor, and CRAN in R world.
 
+>conda config --add channels defaults
+
+>conda config --add channels bioconda
+
+>conda config --add channels conda-forge
+
 Now I can create environments like this:
 
 > conda create -n mypython3 python=3
@@ -53,7 +59,7 @@ you need to install the package "IRkernel" in R and configure it to notebook.
 
 and make jupyter see your R kernal
 
-IRkernel::installspec()
+> IRkernel::installspec()
 
 ref: https://irkernel.github.io/installation/
 
