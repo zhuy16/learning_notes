@@ -10,7 +10,7 @@ At the top level, I have optimized an ecosystem that works to me the best. This 
 
 **sublime text (for editing code and control the style)**
 
-make the best development evironment for my work.
+These above make the best development evironment for my work.
 
 # conda installation and environment setup on a local computer
 
