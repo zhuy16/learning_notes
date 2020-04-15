@@ -1,3 +1,5 @@
+**I found conda environment management + Jupyter lab (file browser, kernal manager) + Jupyter Notebook (coding and reporting in a URL interface) + git/github (version control over your code, keep tracking of the changes) + sublime text (for editing code and control the style) make the best development evironment for my work.** 
+
 # conda installation and environment setup on a local computer
 
 Depending on how did you install your Python (and R) on different occasions, you could end up having multiple installations of them in your computer. More problematically, you could have installed a different set of packages onto the different installation of Python and R, and forgot about which is which. This can make things very complicated and it could mass up your memory and analysis. 
@@ -13,6 +15,10 @@ Conda is initially developed for Python installation, so installing an anaconda3
 Anaconda3 comes with an anaconda navigator and provides a good GUI and an ecosystem of useful software, such as jupyter lab, jupyter notebook, vscode, pycharm etc. However, anaconda3 binary installation is big and doesn't provide an easy command-line access for me. I like to use a miniconda3 installation. 
 
 To install that, I just download and unzip the miniconda3 at home directory and export the bin to PATH. 
+
+**don't confuse anaconda/miniconda with bioconda.** 
+bioconda is just a place/source/project there conda go to find packages. 
+There are 3 most commonly used sources are default, conda-forge, and bioconda. These are equivalent to bioconductor, and CRAN in R world.
 
 Now I can create environments like this:
 
@@ -38,6 +44,7 @@ so numpy can be recognized in this python installation.
 you could also install now with jupyter lab. 
 
 > conda install -c conda-forge jupyterlab
+
 
 ### to make a specific R installation available to the conda 
 you need to install the package "IRkernel" in R and configure it to notebook. 
