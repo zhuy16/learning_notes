@@ -1,5 +1,5 @@
 There are many useful tools in the world of bioinformatics. Individually, many of these tools are very useful; but putting them together, there may be compatibility issues.
-At the top level, I have optimized an ecosystem that works to me the best. This conbination works on local computer or on HPC and cloud.
+At the top level, I have optimized an ecosystem that works to me the best. This conbination works on local computer, HPC or cloud.
 
 **conda environment management +**
 
