@@ -1,4 +1,13 @@
-**I found conda environment management + Jupyter lab (file browser, kernal manager) + Jupyter Notebook (coding and reporting in a URL interface) + git/github (version control over your code, keep tracking of the changes) + sublime text (for editing code and control the style) make the best development evironment for my work.** 
+I found **conda environment management + 
+
+**Jupyter lab (file browser, kernal manager) + 
+**Jupyter Notebook (coding and reporting in a URL interface) + 
+
+**git/github (version control over your code, keep tracking of the changes) +
+
+**sublime text (for editing code and control the style) 
+
+make the best development evironment for my work.
 
 # conda installation and environment setup on a local computer
 
