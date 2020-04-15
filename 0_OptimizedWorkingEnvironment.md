@@ -1,4 +1,7 @@
-I found **conda environment management +**
+There are many useful tools in the world of bioinformatics. Individually, many of these tools are very useful; but putting them together, there may be compatibility issues.
+At the top level, I have optimized an ecosystem that works to me the best. This conbination works on local computer or on HPC and cloud.
+
+**conda environment management +**
 
 **Jupyter lab (file browser, kernal manager) +**
 **Jupyter Notebook (coding and reporting in a URL interface) +** 
