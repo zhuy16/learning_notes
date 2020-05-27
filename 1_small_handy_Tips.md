@@ -1,12 +1,18 @@
 ## tmux 
+You may find that you are opening too many command-line terminals because you cannot close terminals that are in the process of running programs, minimizing them to the taskbar maybe not enough because you have already too many of them. Tmux can free you up by making terminal detached to the background, so you can focus on a few terminals that you are actively working on. You can list and re-attach these background terminals whenever you want to go back for a check.   
 
-A very useful terminal multiplexer, using it I don't need to open so many terminals, and using the session functionalities, I can handle qrsh without worrying closing my jobs at the end of the day, or instability of internet. 
-# Contr + b, + d : detaching a session
+It is called a terminal multiplexer, by using the session functionalities, I can handle qrsh on HPC without worrying closing my jobs at the end of the day, before leaving my office, and don't worry about the instability and disconnection of the internet when working on HPC through VPN. 
+
+#### Contr + b, + d : detaching a session
 You cannot use the session feature on a qrsh node, as quitting that node will make tmux missing. you have to use tmux on the login node, then qrsh.
 
 ## Knitr::spin and #'
 
-When writing R codes, just use #' instead of # to make comments. This mark will make Knit automatically recognize the comments and R code sessions. So a R script can be used to generate a report, as well as to be run as Rscript directly. 
+When writing R codes, just use #' instead of # to make comments. 
+
+This mark will make Knitr automatically recognize the comments sections, at the same time you don't need to add any mark for the R code sections. 
+
+A R script with this style can be used to generate a report as a markdown file (knitr::spin("filename.r")), at the same time it can be run as Rscript file without worrying about the marks (that can be in a regular .rmd markdown file) that may stop the process. 
 
 ## passing arguments to Rscript
 
@@ -34,6 +40,7 @@ For git push without using keys. First add key of the host computer to the githu
 For example, 
 
 Open .git/config and find the [remote "origin"] section. Make sure you're using the SSH one:
+
 ## attention to the format:
 ssh://git@github.com/username/repo.git
 
@@ -54,6 +61,7 @@ You could pass the comment as the $1 argument in your shell.
 
 ## Snakemake
 To glue together pieces of codes and programs, to achieve pipeline automation
+
 ## "|" in the shell script, pipe sign!
 This sign generates data flow in shell scripts. 
 

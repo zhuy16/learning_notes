@@ -26,12 +26,11 @@ it will automatically login into biowulf, and then type
 
 # 2. Using jupyter hub from Locus. 
 
-Just go to https://ai-submit2.niaid.nih.gov:10101/user/usr.name/tree to start using the Jupyter hub like normal. 
+Just go to https://ai-submit2.niaid.nih.gov:10101/ to start using the Jupyter hub like normal. 
 
 To install packages in the jupyter hub, just activate the jupyterenv and install packages in the --user option. This will make it available in the github. 
 
 Tip: don't forget to restart the kernel before using the newly installed packages.
-
  
 $ module load anaconda3/5.3.0
 

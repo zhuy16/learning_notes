@@ -10,7 +10,7 @@
 
 2. Organizing data science projects. 
 
-> [Justin Fear's handy tips](https://github.com/jfear/datascience_presentations) are especially inspiring to me.
+> [Justin Fear's presentation](https://github.com/jfear/datascience_presentations/blob/master/Fear_Organizing_DataScience_Projects.pdf) are especially inspiring to me.
 
 3. Classical lessions about machine learning.
 
