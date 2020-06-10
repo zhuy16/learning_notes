@@ -38,7 +38,13 @@ $ source activate /sysapps/cluster/software/Anaconda3/5.3.0/envs/jupyterenv
 
 $ pip install --user mypackage
 
-For R packages, just evoke R in the jupyterenv, and 
+For R packages, however, the R3.6 kernel is managed by the Anaconda2/5.3.0 module. You don't need to activate the jupyterenv environment. To install packages. you need to do this:
+
+> module load Anaconda2/5.3.0 module
+
+>R
+
+inside R console: 
 
 > install.packages("yourPackage")
 
