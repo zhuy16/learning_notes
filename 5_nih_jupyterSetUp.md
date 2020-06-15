@@ -9,6 +9,7 @@ add these lines to the login ~/.bashrc file on biowulf
 #### alias tm="module load tmux; tmux new -ct 'sinteractive --mem=50g --gres=lscratch:5 --tunnel'"
 
 #### alias ju='conda activate jupyter && module load R/3.5 && jupyter lab --ip localhost --port $PORT1 --no-browser'
+(I set up my own jupyter environment for management purpose. It is recommended but not absolutely required if you don't want to.)
 
 ## procedures to startup the jupyter lab with R kernal
 on local machine type:
@@ -28,17 +29,19 @@ it will automatically login into biowulf, and then type
 
 Just go to https://ai-submit2.niaid.nih.gov:10101/ to start using the Jupyter hub like normal. 
 
-To install packages in the jupyter hub, just activate the jupyterenv and install packages in the --user option. This will make it available in the github. 
+To install packages in the jupyter hub, module load Anaconda3/5.3.0 and activate the conda environment--jupyterenv and install packages in the --user option. This will make it available in the github. 
 
 Tip: don't forget to restart the kernel before using the newly installed packages.
  
-$ module load anaconda3/5.3.0
+$ module load Anaconda3/5.3.0
 
 $ source activate /sysapps/cluster/software/Anaconda3/5.3.0/envs/jupyterenv
 
 $ pip install --user mypackage
 
-For R packages, however, the R3.6 kernel is managed by the Anaconda2/5.3.0 module. You don't need to activate the jupyterenv environment. To install packages. you need to do this:
+For R packages, however, the R/3.6.1 kernel is managed by the Anaconda2/5.3.0 module. You should not activate the jupyterenv environment (which is essenntially managing the python packages in in the jupyter notebook). 
+
+To install R packages. you need to do this:
 
 > module load Anaconda2/5.3.0 module
 
@@ -46,9 +49,9 @@ For R packages, however, the R3.6 kernel is managed by the Anaconda2/5.3.0 modul
 
 inside R console: 
 
-> install.packages("yourPackage")
+> install.packages("yourPackage")(Note that there are still significant number of packages that cannot be installed from the user end. Please contact the NIAID OEB HPC Team <NIAIDOEBHPCTeam@mail.nih.gov> for help.
 
 See https://www.osc.edu/resources/getting_started/howto/howto_install_local_r_packages for more information.
  
 If you’re given a choice of where to install the packages, make sure you use your home directory (or its shortcut, ‘~’).
-After doing that, the package(s) you’ve installed should be available to any JupyterHub Portal session you start.
+After doing that, the package(s) you’ve installed should be available to any JupyterHub Portal session you sta/rt.
