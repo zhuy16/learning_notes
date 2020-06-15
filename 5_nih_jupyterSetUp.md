@@ -1,6 +1,6 @@
 # We can use jupyter lab/notebook on both Locus and Biowulf. (NIH)
 
-# 1. SIMPLIFIED PROCEDURES TO START JUPYTERLAB ON BIOWULF 
+# 1. Simplified procedures to start Jupyterlab on Biowulf. 
 Add this line to the local ~/.bashrc file:
 
 #### alias wulf="ssh -tX usr.name@biowulf.nih.gov 'echo ----hello loged-in!;bash -l'"
