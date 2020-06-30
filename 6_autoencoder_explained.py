@@ -1,3 +1,4 @@
+# I got these codes from https://stackoverflow.com/questions/50281775/variational-autoencoder-invalidargumenterror-incompatible-shapes-100-5-vs
 '''This script demonstrates how to build a variational autoencoder with Keras.
  #Reference
  - Auto-Encoding Variational Bayes
