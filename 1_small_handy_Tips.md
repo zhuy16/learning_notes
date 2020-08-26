@@ -91,3 +91,8 @@ R is more function-oriented language, not an object-oriented programing language
 
 ## All kinds of cheat_sheet
 It is nice to have them as a personal dictionary, personally, I found it convenient to print out some for checking and for revision.
+
+## 2 factor authentification
+2-factor authentification adds factor for authentification. usually using your smartphone with your fingerprint. 
+Whenever you log in, after entering a password, you will also need to enter a 6 digit number appearing on your phone. to see this number, you will need to unlock your phone and enter an app such as 'LastPass authenticator', which will show these digits associated with your account. 
+This authentification will provide some recovery codes when you pair with your account. when you accidentally lose the authenticator (resetting your phone for instance), you can enter the recovery mode and enter one of the recovery codes, which will lead you to a new set of recovery code for later use, and a barcode for you to scan from your newly installed authenticator to reconfigure the 2FA setup. 
