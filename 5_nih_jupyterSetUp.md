@@ -29,7 +29,8 @@ it will automatically login into biowulf, and then type
 
 Just go to https://ai-submit2.niaid.nih.gov:10101/ to start using the Jupyter hub like normal. 
 
-To install packages in the jupyter hub, module load Anaconda3/5.3.0 and activate the conda environment--jupyterenv and install packages in the --user option. This will make it available in the github. 
+## a, to install Python packages
+To install python packages in the jupyter hub, module load Anaconda3/5.3.0 and activate the conda environment--jupyterenv and install packages in the --user option. This will make it available in the github. 
 
 Tip: don't forget to restart the kernel before using the newly installed packages.
  
@@ -41,7 +42,7 @@ $ pip install --user mypackage
 
 For R packages, however, the R/3.6.1 kernel is managed by the Anaconda2/5.3.0 module. You should not activate the jupyterenv environment (which is essenntially managing the python packages in in the jupyter notebook). 
 
-To install R packages. you need to do this:
+## b, To install R packages. you need to do this:
 
 > module load Anaconda2/5.3.0 module
 
