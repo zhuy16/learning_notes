@@ -9,7 +9,9 @@ add these lines to the login ~/.bashrc file on biowulf
 #### alias tm="module load tmux; tmux new -ct 'sinteractive --mem=50g --gres=lscratch:5 --tunnel'"
 
 #### alias ju='conda activate jupyter && module load R/3.5 && jupyter lab --ip localhost --port $PORT1 --no-browser'
-(I set up my own jupyter environment for management purpose. It is recommended but not absolutely required if you don't want to.)
+(Do `conda create jupyter` first to create a jupyter environment.
+I set up my own jupyter environment for management purpose. It also allow you to install your own nbextensions. 
+It is recommended but not absolutely required.)
 
 ## procedures to startup the jupyter lab with R kernal
 on local machine type:
@@ -20,7 +22,6 @@ it will automatically login into biowulf, and then type
  copy and paste the tunnel onto a new local terminal to establish the tunnel. /n
  then type on the interactive node: 
 # ju
-
  this will automatically load R module, and startup jupyter lab. 
  paste the new link to a web browser, and start working!
 
@@ -34,9 +35,11 @@ To install python packages in the jupyter hub, module load Anaconda3/5.3.0 and a
 
 Tip: don't forget to restart the kernel before using the newly installed packages.
  
-$ module load Anaconda3/5.3.0
+$ ~~module load Anaconda3/5.3.0~~
+$ module load anaconda3/2020.07
 
-$ source activate /sysapps/cluster/software/Anaconda3/5.3.0/envs/jupyterenv
+$ ~~source activate /sysapps/cluster/software/Anaconda3/5.3.0/envs/jupyterenv~~
+$ source activate jupyterhub-1.1.0
 
 $ pip install --user mypackage
 
