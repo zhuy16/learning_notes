@@ -1,4 +1,4 @@
-# We can use jupyter lab/notebook on both Locus and Biowulf. (NIH)
+### We can use jupyter lab/notebook on both Locus and Biowulf. (NIH)
 
 # 1. Simplified procedures to start Jupyterlab on Biowulf. 
 Add this line to the local ~/.bashrc file:
