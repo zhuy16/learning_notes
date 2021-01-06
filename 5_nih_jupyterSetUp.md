@@ -35,10 +35,10 @@ To install python packages in the jupyter hub, module load Anaconda3/5.3.0 and a
 
 Tip: don't forget to restart the kernel before using the newly installed packages.
  
-$ ~~module load Anaconda3/5.3.0~~
-$ module load anaconda3/2020.07
+$ ~~module load Anaconda3/5.3.0~~ <br>
+$ module load anaconda3/2020.07 
 
-$ ~~source activate /sysapps/cluster/software/Anaconda3/5.3.0/envs/jupyterenv~~
+$ ~~source activate /sysapps/cluster/software/Anaconda3/5.3.0/envs/jupyterenv~~ <br>
 $ source activate jupyterhub-1.1.0
 
 $ pip install --user mypackage
