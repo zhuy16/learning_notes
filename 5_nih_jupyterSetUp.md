@@ -53,7 +53,7 @@ For R packages, however, the R/3.6.1 kernel is managed by the Anaconda2/5.3.0 mo
 
 inside R console: 
 
-> install.packages("yourPackage")(Note that there are still significant number of packages that cannot be installed from the user end. Please contact the NIAID OEB HPC Team <NIAIDOEBHPCTeam@mail.nih.gov> for help.
+> install.packages("yourPackage", )(Note that there are still significant number of packages that cannot be installed from the user end. Please contact the NIAID OEB HPC Team <NIAIDOEBHPCTeam@mail.nih.gov> for help.
 
 See https://www.osc.edu/resources/getting_started/howto/howto_install_local_r_packages for more information.
  
