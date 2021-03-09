@@ -26,11 +26,11 @@ it will automatically login into biowulf, and then type
  paste the new link to a web browser, and start working!
 
 # alternatively, if you are not familar with nano and .bashrc. just do this to achieve the same thing. 
-> ssh -tX usr.name@biowulf.nih.gov
-> module load tmux; tmux new
-> sinteractive --mem=50g --gres=lscratch:5 --tunnel # copy the code "ssh ..." to a new terminal and enter.
-> module load jupyter
-> jupyter lab --ip localhost --port $PORT1 --no-browser # now copy the url to your web browser
+> ssh -tX usr.name@biowulf.nih.gov \br
+> module load tmux; tmux new \br
+> sinteractive --mem=50g --gres=lscratch:5 --tunnel # copy the code "ssh ..." to a new terminal and enter. <br>
+> module load jupyter <br>
+> jupyter lab --ip localhost --port $PORT1 --no-browser # now copy the url to your web browser <br>
 
 
 
