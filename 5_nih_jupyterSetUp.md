@@ -4,20 +4,20 @@
 Add this line to the local ~/.bashrc file:
 
 #### alias wulf="ssh -tX usr.name@biowulf.nih.gov 'echo ----hello loged-in!;bash -l'"
-add these lines to the login ~/.bashrc file on biowulf
+add these lines to the login ~/.bashrc file on biowulf. or if it doesn't work for you. just use 
+'ssh -X yourID@biowulf.nih.gov'
 
-#### alias tm="module load tmux; tmux new -ct 'sinteractive --mem=50g --gres=lscratch:5 --tunnel'"
+#### alias tmt="module load tmux; tmux new -ct 'sinteractive --mem=50g --gres=lscratch:5 --tunnel'"
 
-#### alias ju='module load jupyter && jupyter lab --ip localhost --port $PORT1 --no-browser'
+#### alias ju='module load jupyter R/4.0.3 python/3.6 && jupyter lab --ip localhost --port $PORT1 --no-browser'
 (Do `conda create jupyter` first to create a jupyter environment.
 I set up my own jupyter environment for management purpose. It also allow you to install your own nbextensions. 
 It is recommended but not absolutely required.)
 
-## procedures to startup the jupyter lab with R kernal
 on local machine type:
 ### wulf
 it will automatically login into biowulf, and then type 
-### tm
+### tmt
  it will load tmux, generate a new terminal and request a work node. and out put a tunnel. 
  copy and paste the tunnel onto a new local terminal to establish the tunnel. /n
  then type on the interactive node: 
@@ -33,9 +33,7 @@ it will automatically login into biowulf, and then type
 > jupyter lab --ip localhost --port $PORT1 --no-browser # now copy the url to your web browser <br>
 
 
-
-
-# 2. Using jupyter hub from Locus. 
+# 2. Using jupyter hub from Locus (NIAID cluster). 
 
 Just go to https://ai-submit2.niaid.nih.gov:10101/ to start using the Jupyter hub like normal. 
 
